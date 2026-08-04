@@ -7,6 +7,8 @@ print(paste0("/*** Library Paths: ",.libPaths()))
 #log_info("Processing...", action="in_process")
 message("[AEGIS Logging]Processing...")
 
+library("car")
+
 print(paste0("/*** Current Working Location: ", getwd()))
 print("/*** Other Info:")
 print(loadedNamespaces())
